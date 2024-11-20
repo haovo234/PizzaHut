@@ -1,10 +1,7 @@
 #pragma once
 #include <iostream>
-#include <string>
-#include <vector>
 #include <memory>
-using namespace std;
-
+using namespace std; 
 namespace Pizza {
 class Pizza {
 public:
@@ -13,7 +10,6 @@ public:
 };
 
 class PlainPizza : public Pizza {
-protected:
 public:
     string getDescription() const override {
         return "Plain Pizza";
@@ -21,7 +17,7 @@ public:
 
     double cost() const override {
         return 5.0;
-    }
+    }  
 };
 
 class ToppingDecorator : public Pizza {
@@ -34,4 +30,3 @@ public:
 
 };
 }
-
