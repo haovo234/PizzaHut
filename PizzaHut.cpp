@@ -96,5 +96,11 @@ void createAvailablePizza(vector<shared_ptr<Pizza::Pizza>> &pizzaList) {
     KoreanBBQSauce = make_shared<Pizza::BBQSauce>(KoreanBBQSauce);
     KoreanBBQSauce = make_shared<Pizza::SpicySauce>(KoreanBBQSauce);
     pizzaList.push_back(KoreanBBQSauce);
+
+    shared_ptr<Pizza::Pizza> DoubleShrimp = make_shared<Pizza::PlainPizza>();
+    
+
+
+
 }
 
