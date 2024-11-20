@@ -14,18 +14,13 @@ public:
 
 class PlainPizza : public Pizza {
 protected:
-    string name = "Plain Pizza";
 public:
     string getDescription() const override {
-        return name;
+        return "Plain Pizza";
     }
 
     double cost() const override {
         return 5.0;
-    }
-    string getName() const { return name; }
-    void setName(const string& name) {
-        this-> name = name;
     }
 };
 

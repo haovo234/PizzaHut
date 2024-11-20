@@ -8,4 +8,4 @@ void showAvailablePizzas(const vector<shared_ptr<Pizza::Pizza>>& pizzaList);
 void handleChoosePizza(const vector<shared_ptr<Pizza::Pizza>>& pizzaList);
 
 void handleCustomizePizza();
-void createAvailablePizzas(const vector<shared_ptr<Pizza::Pizza>>& pizzaList);
+void createAvailablePizzas();
